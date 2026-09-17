@@ -1,0 +1,81 @@
+.cta {
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+
+.cta__glow {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 900px;
+  height: 500px;
+  transform: translate(-50%, -50%);
+  background: radial-gradient(ellipse, rgba(124, 58, 237, 0.25), transparent 70%);
+  filter: blur(40px);
+  pointer-events: none;
+}
+
+.cta__content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cta__heading {
+  margin-top: 20px;
+  font-size: clamp(40px, 8vw, 96px);
+  line-height: 0.98;
+}
+
+.cta__heading span {
+  display: block;
+}
+
+.cta__subtitle {
+  margin: 24px auto 0;
+  text-align: center;
+}
+
+.cta__actions {
+  margin-top: 44px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 28px;
+}
+
+.cta__social {
+  display: flex;
+  gap: 28px;
+}
+
+.cta__social a {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--muted);
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.cta__social a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0%;
+  height: 1px;
+  background: var(--grad-primary);
+  transition: width 0.3s var(--ease-out);
+}
+
+.cta__social a:hover {
+  color: var(--white);
+}
+
+.cta__social a:hover::after {
+  width: 100%;
+}
