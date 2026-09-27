@@ -1,8 +1,4 @@
-// ─────────────────────────────────────────────────────────
-// SITE CONFIG
-// Every piece of editable text/branding on the site lives here.
-// Change values below — no need to touch component files.
-// ─────────────────────────────────────────────────────────
+const base = import.meta.env.BASE_URL;
 
 export const site = {
   name: 'Harsha',
@@ -26,8 +22,8 @@ export const showreel = {
   title: 'A quick look at the cut.',
   subtitle: 'Sound on for the full effect.',
   // Put your showreel file at public/videos/showreel.mp4
-  video: '/videos/showreel.mp4',
-  poster: '/thumbnails/showreel.jpeg',
+  video: `${base}videos/showreel.mp4`,
+  poster: `${base}thumbnails/showreel.jpeg`,
 };
 
 export const workSection = {
