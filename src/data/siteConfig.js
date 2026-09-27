@@ -70,7 +70,7 @@ export const about = {
     'My work leans fast-paced and social-first, with motion graphics used to support the story rather than distract from it.',
   ],
   // Drop a photo at public/images/profile.jpg to replace the placeholder.
-  photo: '${base}images/profile.png',
+  photo: `${base}images/profile.png`,
 };
 
 export const whyWorkWithMe = {
