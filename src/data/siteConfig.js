@@ -3,6 +3,7 @@
 // Every piece of editable text/branding on the site lives here.
 // Change values below — no need to touch component files.
 // ─────────────────────────────────────────────────────────
+const base = import.meta.env.BASE_URL;
 
 export const site = {
   name: 'Harsha',
@@ -27,7 +28,7 @@ export const showreel = {
   subtitle: 'Sound on for the full effect.',
   // Put your showreel file at public/videos/showreel.mp4
   video: '/videos/showreel.mp4',
-  poster: '/thumbnails/showreel.jpeg',
+  poster: '%BASE_URL%/thumbnails/showreel.jpeg',
 };
 
 export const workSection = {
