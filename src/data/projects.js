@@ -6,7 +6,7 @@ export const projects = [
     title: 'AMV EDIT',
     category: 'Fast Paced',
     description: 'A high-energy brand promo cut for maximum retention.',
-    video: `${base}videos/video-01.mp4`,
+    video: `videos/video-01.mp4`,
     thumbnail: `${base}thumbnails/video-01.jpeg`,
   },
   {
@@ -14,7 +14,7 @@ export const projects = [
     title: 'NEW VIDEO',
     category: 'Cinematic',
     description: 'Your new video description.',
-    video: `${base}videos/video-02.mp4`,
+    video: `videos/video-02.mp4`,
     thumbnail: `${base}thumbnails/video-02.jpeg`,
   },
   {
@@ -22,7 +22,7 @@ export const projects = [
     title: 'Loop & Hook',
     category: 'Social Media',
     description: 'A short-form hook edit built for the first three seconds.',
-    video: `${base}videos/video-03.mp4`,
+    video: `videos/video-03.mp4`,
     thumbnail: `${base}thumbnails/video-03.jpeg`,
   },
   {
@@ -30,7 +30,7 @@ export const projects = [
     title: 'Signal',
     category: 'Motion Graphics',
     description: 'Animated typography and transitions carrying the story.',
-    video: `${base}videos/video-04.mp4`,
+    video: `videos/video-04.mp4`,
     thumbnail: `${base}thumbnails/video-04.jpeg`,
   },
   {
@@ -38,7 +38,7 @@ export const projects = [
     title: 'Overdrive',
     category: 'Intro / Outro',
     description: 'A branded intro sequence designed to set the tone fast.',
-    video: `${base}videos/video-05.mp4`,
+    video: `videos/video-05.mp4`,
     thumbnail: `${base}thumbnails/video-05.jpeg`,
   },
 ];
