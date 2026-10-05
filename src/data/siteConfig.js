@@ -22,7 +22,7 @@ export const showreel = {
   title: 'A quick look at the cut.',
   subtitle: 'Sound on for the full effect.',
   // Put your showreel file at public/videos/showreel.mp4
-  video: `${base}videos/showreel.mp4`,
+  video: `videos/showreel.mp4`,
   poster: `${base}thumbnails/showreel.jpeg`,
 };
 
